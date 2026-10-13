@@ -17,11 +17,23 @@ A tradução é desenhada **diretamente sobre os balões originais**, aplicando 
 
 ## 🚀 1. Como Instalar no Tampermonkey
 
-1. Abra seu navegador (Chrome, Firefox, Edge, Brave, etc.) com a extensão **Tampermonkey** instalada.
-2. Clique no ícone do Tampermonkey e selecione **"Criar novo script..."** (ou **"Dashboard"** -> aba **"Utilitários"** / **"+"**).
-3. Apague qualquer código gerado automaticamente no editor.
-4. Copie todo o conteúdo do arquivo [`manga-translator-ptbr.user.js`](file:///c:/Users/user/Documents/mangar%20translator/manga-translator-ptbr.user.js) e cole no editor do Tampermonkey.
-5. Pressione **Ctrl + S** (ou clique em **Arquivo -> Salvar**).
+### ⚠️ Passo Obrigatório no Navegador (Chrome / Edge / Brave / Opera)
+Nas versões recentes de navegadores baseados em Chromium (com a migração para Manifest V3), **é obrigatório permitir scripts de usuários ativando o Modo do Desenvolvedor**:
+
+1. Acesse o gerenciador de extensões do seu navegador:
+   - **Google Chrome / Brave:** digite `chrome://extensions` na barra de endereços e pressione Enter.
+   - **Microsoft Edge:** digite `edge://extensions` na barra de endereços e pressione Enter.
+2. Ative a chave **"Modo do desenvolvedor"** (*Developer mode*) no canto superior direito da tela (ou no menu lateral esquerdo no Edge).
+3. *(Opcional)* Se o Tampermonkey exibir um aviso com botão *"Permitir scripts de usuário"* ou solicitar autorização ao abrir a extensão, clique em **Permitir**.
+
+> 💡 **Por que isso é necessário?** Sem o Modo de Desenvolvedor ativado, as políticas de segurança do Chromium bloqueiam a API de injeção de scripts locais (`chrome.userScripts`), impedindo que qualquer userscript seja executado.
+
+### 📋 Passo a Passo de Instalação do Script:
+1. Tenha a extensão oficial do **[Tampermonkey](https://www.tampermonkey.net/)** instalada no navegador.
+2. Clique no ícone do Tampermonkey na barra do navegador e selecione **"Criar novo script..."** (ou abra o **Dashboard** e clique na aba **"+"**).
+3. Apague qualquer modelo prévio de código no editor.
+4. Copie todo o conteúdo do arquivo [`manga-translator-ptbr.user.js`](manga-translator-ptbr.user.js) e cole no editor do Tampermonkey.
+5. Pressione **Ctrl + S** (ou vá em **Arquivo -> Salvar**).
 
 ---
 
