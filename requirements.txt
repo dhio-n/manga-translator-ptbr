@@ -1,0 +1,17 @@
+# Manga Translator PT-BR — Dependências do Backend Python
+# Instalação: pip install -r requirements.txt
+
+# OCR Local de Alta Performance (ONNX Runtime na CPU — Zero Custo de Tokens)
+rapidocr-onnxruntime>=1.3.0
+onnxruntime>=1.16.0
+
+# Processamento de Imagens e Manipulação Numérica
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Segmentação de Palavras coladas do OCR e Pontuação
+wordninja>=2.0.0
+
+# Requisições HTTP e Motores de Tradução Abertos
+requests>=2.31.0
+deep-translator>=1.11.4

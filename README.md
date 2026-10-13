@@ -53,8 +53,15 @@ Para restringir o script **apenas aos leitores de mangá que você realmente uti
 
 ## 🐍 3. Como Iniciar e Testar o Backend Python
 
-### A. Iniciando o servidor de teste
-Abra o prompt de comando (PowerShell ou Terminal) na pasta do projeto e execute:
+### A. Instalação das dependências
+Abra o prompt de comando (PowerShell ou Terminal) na pasta do projeto e instale as dependências:
+
+```powershell
+pip install -r requirements.txt
+```
+
+### B. Iniciando o servidor de tradução
+Execute:
 
 ```powershell
 python test_backend.py
@@ -73,7 +80,7 @@ O terminal exibirá:
 =================================================================
 ```
 
-### B. Testando a conectividade manualmente
+### C. Testando a conectividade manualmente
 Abra outro terminal e execute:
 
 ```powershell
